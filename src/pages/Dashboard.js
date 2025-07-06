@@ -16,6 +16,10 @@ function Dashboard() {
         window.Retention.init({ appId, customerId });
       }
     };
+    
+  // ✅ Show the offer manually (popup/modal)
+  window.Retention.showOffer?.();
+}
 
     document.body.appendChild(script);
 
